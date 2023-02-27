@@ -1,0 +1,97 @@
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    border: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.lightmode
+{
+    background-color: black;
+}
+#dark
+{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.main{height: 200px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  
+}
+ .boxes
+{
+  display: flex; 
+}
+.timer
+{
+  
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.button
+{
+    display: flex;
+    
+}
+.button button
+{
+    width: 70px;
+    margin: 4px;
+    cursor: pointer;
+}
+#starts
+{
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+
+}
+#stop
+{
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+
+}
+#reset
+{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+@keyframes example
+{
+    0%{ background-color: yellow;}
+    10%{ background-color: coral;}
+    20%{ background-color: cyan;}
+    30%{ background-color: aqua;}
+    40%{ background-color: aquamarine;}
+    50%{ background-color: purple;}
+    60%{ background-color: blueviolet;}
+    70%{ background-color: blue;}
+    80%{ background-color: rebeccapurple;}
+    90%{ background-color: violet;}
+   100%{ background-color: greenyellow;}
+}
